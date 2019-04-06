@@ -1,20 +1,31 @@
 {
-  "name": "my-stocks",
-  "version": "0.1.0",
-  "private": true,
+  "name": "stocks-project",
+  "version": "1.0.0",
+  "description": "Show stocks",
+  "keywords": [],
+  "main": "src/index.js",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "axios": "^0.18.0",
+    "prop-types": "15.7.2",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.8",
+    "redux": "4.0.1",
+    "redux-thunk": "2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meiryu100/repository.git"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
