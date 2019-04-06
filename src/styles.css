@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  width: 100%;
+  background: #fff;
+}
+.header {
+  background: #ebd687;
+}
+.header nav {
+  justify-content: flex-end;
+  display: flex;
+  height: 45px;
+  box-shadow: 1px 1px 3px #ebd687;
+}
+.header nav > div {
+  padding: 15px 10px;
+}
+.searchFillter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tableTitle {
+  padding: 20px;
+}
+.searchFillter input {
+  border: 1px solid gray;
+  border-radius: 4px;
+  height: 30px;
+  padding: 10px;
+  background: #d4ebf5;
+  color: #333;
+  border: 1px solid #2faadc;
+  box-shadow: inset 0 1px 1px rgba(52, 219, 224, 0.075);
+  outline: none;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.searchFillter input:focus {
+  background-color: #92c8dd;
+  box-shadow: inset 0 1px 1px rgba(52, 219, 224, 0.5);
+  transition: background-color ease-in-out 1s, box-shadow ease-in-out 1s;
+}
+.generalTable {
+  display: table;
+  margin-left: 10px;
+}
+.generalTable .rowTable {
+  display: table-row;
+}
+.generalTable .colTable {
+  display: table-cell;
+  border: 1px solid #ddd;
+  padding: 10px;
+  min-width: 130px;
+  text-align: center;
+}
+.generalTable .rowTable:nth-child(2n+0) {
+  background: #eee;
+}
+
+.buySellCell {
+  display: flex;
+  justify-content: space-around;
+  width: 110px;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  min-width: 50px;
+  border-radius: 4px;
+  height: 30px;
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.btn.buy {
+  background: #32CD32;
+  border: 1px solid	#32CD32;
+}
+
+.btn.sell {
+  background: #DC143C;
+  border: 1px solid #DC143C;
+}
+.buttonsNearFillter {
+  justify-content: flex-end;
+  display: inline-flex;
+  width: 490px;
+}
+.btn.canBuy {
+  display: inline-block;
+  width: 150px;
+  margin-right: 40px;
+  background: #32CD32;
+  border: 1px solid	#32CD32;
+}
+
+.btn.following {
+  display: inline-block;
+  width: 150px;
+  background: #32CD32;
+  border: 1px solid	#32CD32;
+}
