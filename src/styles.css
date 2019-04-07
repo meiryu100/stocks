@@ -62,7 +62,6 @@ body {
 .generalTable .rowTable:nth-child(2n+0) {
   background: #eee;
 }
-
 .buySellCell {
   display: flex;
   justify-content: space-around;
@@ -83,7 +82,6 @@ body {
   background: #32CD32;
   border: 1px solid	#32CD32;
 }
-
 .btn.sell {
   background: #DC143C;
   border: 1px solid #DC143C;
@@ -100,7 +98,6 @@ body {
   background: #32CD32;
   border: 1px solid	#32CD32;
 }
-
 .btn.following {
   display: inline-block;
   width: 150px;

@@ -1,6 +1,4 @@
 export const BASE_URL = "http://3.17.189.68/stock-exchange-service/";
-export const SUCCESSFUL_STATUS = "success";
-export const FAILED_STATUS = "failed";
 export const SEARCH_FILLTER_TABLE = "searchFillterTable";
 export const MY_STOCKS_TABLE = "myStocksTable";
 
